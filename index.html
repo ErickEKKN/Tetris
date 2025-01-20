@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Tetris Game</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="game-container">
+            <h1 class="text-center bold">Tetris Game</h1>
+            <div class="text-container">
+                <div class="button-group">
+                    <button class="button bold" id="start">Start Game</button>
+                    <button class="button bg-red bold" id="reset">Reset Game</button>
+                </div>
+            </div>
+            <div class="game-board" id="board"></div>
+        </div>
+        <div class="mobile-controls">
+            <button class="control-btn" id="left">&larr;</button>
+            <button class="control-btn" id="right">&rarr;</button>
+            <button class="control-btn" id="down">&darr;</button>
+            <button class="control-btn" id="rotate">&#8635;</button>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>
